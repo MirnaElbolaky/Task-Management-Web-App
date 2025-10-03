@@ -1,0 +1,191 @@
+body {
+  font-family: "Cairo";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5e3d4; 
+  color: #1c325b; 
+}
+
+header {
+  background-color: #1c325b; 
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+button {
+  background-color: #1c325b; 
+  color: white;
+  border: none;
+  padding: 5px 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e5879;
+}
+
+button#toggle-theme {
+  margin-top: 10px;
+  background-color: #e5e3d4;
+  color: #1c325b; 
+}
+button#toggle-theme:hover {
+  background-color: #3e5879;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: #a4a5a3; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 1.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #1c325b; 
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+input,
+select {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-sizing: border-box;
+  min-width: 150px;
+}
+button:hover {
+  background-color: #3e5879;
+}
+
+button[type="submit"] {
+  flex: 0;
+  padding: 5px 2rem;
+  background-color: #1c325b; 
+}
+button[type="submit"]:hover {
+  background-color: #3e5879; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #1c325b; 
+  color: white;
+  font-weight: bold;
+}
+
+tr {
+  background-color: #e5e3d4; 
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1c325b;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.dark-mode {
+  background-color: #181b2c; 
+  color: #e5e3d4; 
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #1c325b; 
+}
+
+.dark-mode table {
+  color: #1c325b;
+  box-shadow: 0 4px 8px rgb(24, 27, 44, 0.1);
+  border: 1px solid #181b2c;
+  border-collapse: collapse;
+}
+
+.dark-mode th {
+  background-color: #1c325b;
+  border: 1px solid #181b2c;
+  border-collapse: collapse;
+}
+
+.dark-mode button {
+  background-color: #1c325b;
+  color: white;
+}
+
+.dark-mode input,
+.dark-mode select {
+  background-color: #a4a5a3;
+  color: white;
+  border-color: #1c325b;
+  border-collapse: collapse;
+}
+
+.completed-task {
+  background-color: #e5e3d4; 
+  color: #1c325b; 
+}
+.completed-task:hover {
+  background-color: #d0cfc3; 
+}
+
+.missed-task {
+  background-color: #e5a6b3;
+  color: white;
+}
+.missed-task:hover {
+  background-color: #af4c60;
+  color: white;
+}
+
+.late-task {
+  background-color: #863848;
+  color: white;
+}
+.late-task:hover {
+  background-color: #af4c60;
+  color: white;
+}
